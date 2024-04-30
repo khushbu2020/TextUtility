@@ -1,12 +1,12 @@
 {
-  "homepage":"https://khushbu2020.github.io/TextUtilit",
+  "homepage": "https://khushbu2020.github.io/TextUtility",
   "name": "my-vite-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predepoly":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
