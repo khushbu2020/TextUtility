@@ -96,8 +96,10 @@ function App() {
       {/* <Home heding={"enter the text and click button"} /> */}
       <Routes>
         <Route index element={<Home heding={"enter the text and click button"} mode={mode} showalert={showalert} />} />
-        <Route path="/home" element={<Home heding={"enter the text and click button"} mode={mode} showalert={showalert} />} />
-        <Route path="/about" element={<About title={"Change The Mode"}/>} />
+        <Route path="/TextUtility/" element={<Home heding={"enter the text and click button"} mode={mode} showalert={showalert} />} />
+        
+        <Route path="/TextUtility/home" element={<Home heding={"enter the text and click button"} mode={mode} showalert={showalert} />} />
+        <Route path="/TextUtility/about" element={<About title={"Change The Mode"}/>} />
       </Routes>
       </BrowserRouter>
     </>

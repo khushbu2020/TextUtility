@@ -7,7 +7,7 @@ const Nav = (props) => {
     <div>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode} `}>
       {/* <nav className={`navbar navbar-expand-lg  navbar-${props.modee}  bg-${props.modee}`}> */}
-        <Link className="navbar-brand " to="/">
+        <Link className="navbar-brand " to="/TextUtility/">
           {/* TextUtility */}
           {props.title}
         </Link>
@@ -25,13 +25,13 @@ const Nav = (props) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <Link className="nav-link" to="/home">
+              <Link className="nav-link" to="/TextUtility/home">
                 Home
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <Link className="nav-link" to="/TextUtility/about">
                 About
               </Link>
             </li>
